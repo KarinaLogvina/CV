@@ -1,0 +1,49 @@
+
+.main {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1200px;
+}
+
+.main_title {
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.main_title::after {
+    content: '.';
+    color:  red;
+}
+
+.main__info {
+    flex-basis: 55%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.info__item {
+    display: flex;
+    align-items: center;
+}
+
+.photo {
+    flex-basis: 45%;
+    padding: 20px;
+}
+
+/* .github::after {
+    content: url(https://www.flaticon.com/svg/vstatic/svg/2111/2111425.svg?token=exp=1619594750~hmac=c3d992ae4e6874f5e95595b138b2c6ba);
+    width: 10px;
+    height: 10px;
+} */
