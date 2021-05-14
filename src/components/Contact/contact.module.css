@@ -1,0 +1,78 @@
+.contact {
+    align-items: flex-start;
+    background-color: #ffff;
+}
+
+.contact_description {
+    flex-basis: 33%;
+    padding-top: 31px;
+
+}
+
+.contact_title::after {
+    content: '.';
+    color: red;
+}
+
+.name, .email {
+    height: 50px;
+    width: 80%;
+    border: 1px solid #e3e3e3;
+    border-radius: 2px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.data {
+    margin-top: 40px;
+}
+.textarea {
+    margin-top: 40px;
+    height: 100px;
+    width: 89%;
+    border: 1px solid #e3e3e3;
+    padding: 15px 20px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    resize: none;
+    display: block;
+    border-radius: 2px;
+}
+
+.contact_me_button {
+    color: #fff;
+    margin-right: 15px;
+    min-width: 170px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    display: inline-block;
+    background-color: red;
+    border: none;
+    margin: 20px 0;
+    border-radius: 2px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: px;
+    grid-row-gap: 0px;
+}
+
+.back_button {
+    color: #252525;
+    font-size: 13px;
+    min-width: 170px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 13.5px;
+    display: inline-block;
+    background-color: #e3e3e3;
+    border-radius: 2px;
+    margin-left: 20px;
+}
