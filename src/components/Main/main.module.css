@@ -26,15 +26,22 @@
     flex-basis: 55%;
 }
 
+.categoty {
+    text-transform: uppercase;
+    color: lightslategray;
+}
+
 .info {
     display: flex;
     flex-direction: column;
     align-content: center;
+    padding: 20px 0;
 }
 
 .info__item {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .photo {
@@ -42,8 +49,51 @@
     padding: 20px;
 }
 
-/* .github::after {
-    content: url(https://www.flaticon.com/svg/vstatic/svg/2111/2111425.svg?token=exp=1619594750~hmac=c3d992ae4e6874f5e95595b138b2c6ba);
-    width: 10px;
-    height: 10px;
-} */
+.photo > img {
+    width: 100%;
+    height: 100%;
+}
+
+.social__media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_me_button {
+    color: #fff;
+    margin-right: 15px;
+    min-width: 170px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    display: inline-block;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+}
+
+.download_button {
+    color: #252525;
+    background-color: #e3e3e3;
+    text-transform: uppercase;
+    min-width: 170px;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    border-radius: 2px;
+}
+
+.github, .linkedin {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+}
+
+ul { 
+    margin: 0;
+}
+
+a {
+    color: black;
+}
