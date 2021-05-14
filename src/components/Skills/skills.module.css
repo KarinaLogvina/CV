@@ -1,0 +1,31 @@
+.skills {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.skills_title::after {
+    content: '.';
+    color: red;
+}
+
+.skills_description {
+    flex-basis: 33%;
+}
+
+.skills_list {
+    display: flex;
+    flex-basis: 66%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skill {
+    margin: 5px;
+}
+
+.skills_list_item {
+    font-size: 18px;
+    width: 100%;
+    padding: 4px;
+}
