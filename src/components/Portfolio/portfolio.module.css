@@ -1,0 +1,19 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio_title {
+    text-align: start;
+}
+
+.portfolio_title::after {
+    content: '.';
+    color: red;
+}
+
+.portfolio_projects {
+    display: flex;
+    overflow: inherit;
+    flex-flow: wrap;
+}

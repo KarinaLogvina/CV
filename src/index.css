@@ -7,7 +7,7 @@ body {
 }
 
 .root {
-  width: 100vw;
+  width: 98vw;
   margin: 0 auto;
 }
 
@@ -15,13 +15,27 @@ a {
   text-decoration: none;
 }
 
+section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+  max-width: 1200px;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 0 20px;
+}
+
+span {
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+
 p {
   font-size: 18px;
     line-height: 1.56;
     font-family: "Roboto", sans-serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    margin: 0;
 }
