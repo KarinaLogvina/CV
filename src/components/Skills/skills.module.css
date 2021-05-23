@@ -29,3 +29,18 @@
     width: 100%;
     padding: 4px;
 }
+
+@media screen and (max-width: 800px) {
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills_list {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .skills_list_item {
+        padding-top: 10px;
+    }
+}

@@ -1,83 +1,73 @@
 const data = {
     1: {
-        name: "English for kids",
-        demoLink: "https://karinalogvina-english-for-kids.netlify.app/",
-        gitLink: "",
-        img: "./assets/English-for-kids.jpg",
-        descr: "First project on JS classes.",
-        tag: "project"
-    },
-    2: {
-        name: "Movie search",
+        name: "Pokemon game",
+        stack: "ReactJS, ContextAPI, ReactRouter, HTML, CSS",
         demoLink: "",
-        gitLink: "https://github.com/KarinaLogvina/MovieSearch",
-        img: "",
-        descr: "",
-        tag: "project"
+        gitLink: "https://github.com/KarinaLogvina/pokemon-game/tree/master/pokemon-game",
+        img: "pokemon-game.png",
+        descr: "Simple game developed on ReactJS. Created during the ZarMarathon. Still in progress :( ",
+        tag: "project",
+        photos: ['eng-photo1.png', 'eng-photo3.png']
     },
-    3: {
+    5: {
+        name: "English for kids",
+        stack: "Javascript, HTML, CSS",
+        demoLink: 'https://karinalogvina-english-for-kids.netlify.app/',
+        gitLink: 'https://github.com/KarinaLogvina/projects/tree/english-for-kids',
+        img: "English-for-kids.png",
+        descr: "First project on JS classes. A simple game for children to help them learn English.",
+        tag: "project",
+        photos: ['eng-photo1.png', 'eng-photo3.png'],
+    },
+    6: {
         name: "Speak it",
-        demoLink: "https://app.netlify.com/sites/speak-it-tiiksi/overview",
+        stack: "ReactJS, ContextAPI, HTML, Sass",
+        demoLink: "https://speak-it-tiiksi.netlify.app/",
         gitLink: "https://github.com/KarinaLogvina/Speak-it",
-        img: "https://drive.google.com/file/d/1qOIZzMkHeAi-xFJ7WYqYTDtk8PDZViOv/view?usp=sharing",
-        descr: "Project with speach recognition",
-        tag: "project"
+        img: "speak-it.png",
+        descr: "Do you wanna speak english with almost no accent? Sorry, it's almost imposible. But you can practise your pronunciation with this app. There are 6 groups of words arranged in complexity from 1 to 6.",
+        tag: "project",
+        photos: ['speak-photo1.png', 'speak-photo2.png', 'speak-photo3.png'],
     },
     4: {
         name: "Virtual Keyboard",
+        stack: "Javascript, ContextAPI, HTML, CSS",
         demoLink: "https://karinalogvina.github.io/Virtual-Keyboard/",
         gitLink: "https://github.com/KarinaLogvina/Virtual-Keyboard",
-        img: "",
-        descr: "",
-        tag: "project"
+        img: "virtual-keyboard.png",
+        descr: "Just a little virtual keyboard",
+        tag: "project",
+        photos: ['eng-photo1.png'],
     },
-    5: {
-        name: "Pokemon game",
-        demoLink: "",
-        gitLink: "https://github.com/KarinaLogvina/pokemon-game/tree/master/pokemon-game",
-        img: "",
-        descr: "",
-        tag: "project"
-    },
-    6: {
+    3: {
         name: "Fansy Weather",
+        stack: "ReactJS, Redux, HTML, CSS",
         demoLink: "https://karinalogvina-fancy-weather.netlify.app/",
-        gitLink: "",
-        img: "",
-        descr: "",
-        tag: "project"
+        gitLink: "https://github.com/KarinaLogvina/projects/tree/fancy-weather",
+        img: "fansy-weather.png",
+        descr: "I use this project every day. First project with redux, multiple API, voice control. The site uses your geolocation. If you decline the request, it will try to determine your IP. It will not be exactly, but don't judge it, it tries. You can use volume control commands 'louder', 'lower', 'forecast'.",
+        tag: "project",
+        photos: ['eng-photo1.png'],
     },
-    7: {
-        name: "Doob",
-        demoLink: "https://doob-karina-logvina.netlify.app/",
-        gitLink: "https://github.com/KarinaLogvina/Doob",
-        img: "",
-        descr: "First project with jQuery",
-        tag: "landing"
-    },
-    8: {
+    2: {
         name: "RS-Lang",
+        stack: "ReactJS, MaterialUI, HTML, CSS",
         demoLink: "https://rslang-english-logvina.netlify.app/",
         gitLink: "",
-        img: "",
-        descr: "",
-        tag: "project"
+        img: "rs-lang.png",
+        descr: "Big (for me) team project. Platform for learning English with interval training and lots of mini-games.",
+        tag: "project",
+        photos: ['rslang-photo3.png', 'rslang-photo1.png', 'rslang-photo2.png'],
     },
     9: {
-        name: "Triple animation",
-        demoLink: "",
-        gitLink: "",
-        img: "",
-        descr: "",
-        tag: "landing"
-    },
-    10: {
         name: "Black House",
+        stack: "Javascript, HTML, CSS",
         demoLink: "https://black-house.netlify.app/",
         gitLink: "https://github.com/KarinaLogvina/BlackHouse",
-        img: "",
+        img: "black-house.png",
         descr: "Simple site for Minsk night club. First practise with i18next.",
-        tag: "landing"
+        tag: "landing",
+        photos: ['black-photo1.png', 'black-photo2.png', 'black-photo3.png'],
     }
 }
 

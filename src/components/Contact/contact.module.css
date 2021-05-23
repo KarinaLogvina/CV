@@ -25,6 +25,7 @@
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+
 .data {
     margin-top: 40px;
 }
@@ -43,17 +44,23 @@
 }
 
 .contact_me_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
-    margin-right: 15px;
-    min-width: 170px;
-    text-align: center;
+    font-size: 13px;
+    width: 170px;
+    height: 45px;
     text-transform: uppercase;
-    padding: 15px;
-    display: inline-block;
+    font-weight: 500;
     background-color: red;
-    border: none;
-    margin: 20px 0;
+    margin: 10px 5px;
     border-radius: 2px;
+    transition: box-shadow 0.3s linear;
+}
+
+.contact_me_button:hover {
+    box-shadow: 10px 10px 20px rgb(	229	0	0 / 30%);
 }
 
 .form {
@@ -65,14 +72,59 @@
 }
 
 .back_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #252525;
     font-size: 13px;
-    min-width: 170px;
-    text-align: center;
+    width: 170px;
+    height: 45px;
     text-transform: uppercase;
-    padding: 13.5px;
-    display: inline-block;
+    font-weight: 500;
     background-color: #e3e3e3;
     border-radius: 2px;
-    margin-left: 20px;
+    transition: box-shadow 0.3s linear;
+}
+
+.back_button:hover {
+    box-shadow: 10px 10px 20px rgb(37 37 37 / 20%);
+    color: #252525;
+    cursor: pointer;
+}
+
+.button_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button_area {
+        justify-content: center;
+    }
+
+    .data {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 107%;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1020px) { 
+    .contact {
+        flex-direction: column;
+    }
 }

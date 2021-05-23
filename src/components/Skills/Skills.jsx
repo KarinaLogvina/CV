@@ -21,6 +21,7 @@ const Skills = () => {
                         <p className={s.skills_list_item}>Effective communication, Conflict resolution, Cooperation, Good Time Management</p>
                     </div>
                 </ul>
+                <p id="education"></p>
             </section>
         </>
     )

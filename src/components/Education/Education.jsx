@@ -20,9 +20,11 @@ const Education = () => {
                             <a href="http://">Sertificate</a>
                         </div>
                         <div className={s.education_step}>
+                            <p id="projects"></p>
                             <p className={s.year}>2021</p>
                             <p>Zar React Marathon</p>
                             <a href="http://">Sertificate</a>
+
                         </div>
                     </div>
                 </div>
