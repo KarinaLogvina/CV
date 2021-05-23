@@ -64,12 +64,19 @@
     margin-right: 15px;
     min-width: 170px;
     text-align: center;
+    font-weight: 500;
     text-transform: uppercase;
     padding: 15px;
     display: inline-block;
     background-color: red;
     border: none;
     border-radius: 2px;
+    transition: box-shadow 0.3s linear;
+}
+
+.contact_me_button:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgb(	229	0	0 / 30%);
 }
 
 .download_button {
@@ -80,8 +87,16 @@
     text-align: center;
     padding: 15px;
     display: inline-block;
+    font-weight: 500;
     border: none;
     border-radius: 2px;
+    transition: box-shadow 0.3s linear;
+}
+
+.download_button:hover {
+    box-shadow: 10px 10px 20px rgb(37 37 37 / 20%);
+    color: #252525;
+    cursor: pointer;
 }
 
 .github, .linkedin {
@@ -96,4 +111,12 @@ ul {
 
 a {
     color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
 }

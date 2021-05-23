@@ -46,3 +46,9 @@ nav {
 .navigation_item {
     text-transform: uppercase;
 }
+
+.navigation_item a:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -7,10 +7,11 @@ const Header = () => {
                 <h1 className={s.title}>Karina</h1>
                 <nav>
                     <ul className={s.navigation}>
-                        <li className={s.navigation_item}>Home</li>
-                        <li className={s.navigation_item}>Skills</li>
-                        <li className={s.navigation_item}>Projects</li>
-                        <li className={s.navigation_item}>Contact Me</li>
+                        <li className={s.navigation_item}><a href="#home">Home</a></li>
+                        <li className={s.navigation_item}><a href="#skills">Skills</a></li>
+                        <li className={s.navigation_item}><a href="#education">Education</a></li>
+                        <li className={s.navigation_item}><a href="#projects">Projects</a></li>
+                        <li className={s.navigation_item}><a href="#contact">Contact Me</a></li>
                     </ul>
                 </nav>
             </div>
