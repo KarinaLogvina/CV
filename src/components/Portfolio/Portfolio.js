@@ -6,14 +6,19 @@ const Portfolio = () => {
     return (
         <>
             <section className={s.portfolio}>
-                <h2 className={s.portfolio_title}>Portfolio</h2>
+                <span className={s.portfolio_title}>Portfolio</span>
 
                 <div className={s.portfolio_projects}>
                     {
                         Object.values(data).map((item) =>
                             <Card
-                                title={item.name}
+                                name={item.name}
                                 img={item.img}
+                                descr={item.descr}
+                                stack={item.stack}
+                                photos={item.photos}
+                                gitLink={item.gitLink}
+                                demoLink={item.demoLink}
                             />
                         )
                     }
