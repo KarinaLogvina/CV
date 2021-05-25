@@ -7,7 +7,7 @@ const data = {
         img: "pokemon-game.png",
         descr: "Simple game developed on ReactJS. Created during the ZarMarathon. Still in progress :( ",
         tag: "project",
-        photos: ['eng-photo1.png', 'eng-photo3.png']
+        photos: ['pokemon.png', 'pokemon-photo2.png', 'pokemon-photo1.png']
     },
     5: {
         name: "English for kids",
@@ -37,7 +37,7 @@ const data = {
         img: "virtual-keyboard.png",
         descr: "Just a little virtual keyboard",
         tag: "project",
-        photos: ['eng-photo1.png'],
+        photos: ['virtual-keyboard-photo1.png'],
     },
     3: {
         name: "Fansy Weather",
@@ -47,7 +47,7 @@ const data = {
         img: "fansy-weather.png",
         descr: "I use this project every day. First project with redux, multiple API, voice control. The site uses your geolocation. If you decline the request, it will try to determine your IP. It will not be exactly, but don't judge it, it tries. You can use volume control commands 'louder', 'lower', 'forecast'.",
         tag: "project",
-        photos: ['eng-photo1.png'],
+        photos: ['fansy-weather-photo1.png'],
     },
     2: {
         name: "RS-Lang",

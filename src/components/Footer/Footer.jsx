@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
             <footer className={s.footer}>
-                © 2021 Karina
+                © 2021 Karina | Жыве Беларусь!
             </footer>
         </>
     )
