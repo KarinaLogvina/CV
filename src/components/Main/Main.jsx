@@ -1,6 +1,6 @@
 import Modal from '../Modal/Modal'
 import { useState } from 'react'
-import karina from './karina.jpg'
+import karina from './karina.png'
 import link from './linkedin.svg'
 
 import s from './main.module.css'

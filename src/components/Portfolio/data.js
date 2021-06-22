@@ -2,7 +2,7 @@ const data = {
     1: {
         name: "Pokemon game",
         stack: "ReactJS, ContextAPI, ReactRouter, HTML, CSS",
-        demoLink: "pokemon-game-lka.netlify.app",
+        demoLink: "https://pokemon-game-lka.netlify.app/",
         gitLink: "https://github.com/KarinaLogvina/pokemon-game/tree/master/pokemon-game",
         img: "pokemon-game.png",
         descr: "Simple game developed on ReactJS. Created during the ZarMarathon. Still in progress :( ",
