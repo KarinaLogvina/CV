@@ -20,8 +20,8 @@ const Main = () => {
                 <div className={s.main__info}>
                     <span className={s.main_title}>I am Karina Logvina</span>
                     <p className={s.discription}>I am a Front-end Developer located in Minsk, Belarus. I am looking to take on more work and to increase my skills as a Front-end Developer.
-                    If you have job for me please contact me.
-                </p>
+                        If you have job for me please contact me.
+                    </p>
                     <div className={s.info}>
                         <div className={s.info__item}>
                             <p className={s.categoty}>Phone</p>
@@ -51,7 +51,9 @@ const Main = () => {
                         showModal && (<Modal show={showModal} setShowModal={setShowModal} close={handleModal} />)
                     }
                     <button className={s.contact_me_button} onClick={handleModal}>Contact Me</button>
-                    <button className={s.download_button}>Download CV</button>
+                    <button className={s.download_button}>
+                        <a href="./Karina_Logvina_resume.pdf" download>Download CV</a>
+                    </button>
                 </div>
                 <p id="skills"></p>
             </section>
